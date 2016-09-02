@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Home</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css"/>
 </head>
@@ -26,97 +27,95 @@
     <section class="logistic">
       <div class="container">
         <div class="row">
-          <!-- <div class="col s12 services">
-          <ul>
-          <li>
-          <img class="responsive-img" src="images/surface-treatmants-icon.png" alt="fabrication img" />
-          <p>SURFACE TREATMENTS</p>
-        </li>
-        <li>
-        <img class="responsive-img"  src="images/transportation-icon.png " alt="transportation img">
-        <p>TRANSPORTATION</p>
-      </li>
-      <li>
-      <img class="responsive-img"  src="images/fabrication-icon.png " alt="">
-      <p>FABRICATION</p>
-    </li>
-    <li>
-    <img class="responsive-img"  src="images/logistics-icon.png " alt="">
-    <p>LOGISTICS</p>
-  </li>
-  <li>
-  <img class="responsive-img"  src="images/returnable-containers-icon.png " alt="">
-  <p>RETURNABLE CONTAINERS</p>
-</li>
-</ul>
-</div> -->
-<div>
-  <div class="row">
-    <div class="col s4">
-      <img src="images/logistics-pic.png" class="responsive-img" alt="">
-      <a class="waves-effect waves-light btn icon-add">request quote</a>
-    </div>
-    <div class="col s8">
-      <h2>logistics</h2>
-      <p>ICS has over 30 years&#8217; experience in logistics.  We specialize in adding value to parts and equipmentbetween tiered suppliers, between suppliers and OEMs, and between OEMs and consumers.</p>
-      <form action="#">
-        <ul>
-          <li>
-            <p>
-              <input type="checkbox" id="assembly" />
-              <label for="assembly">Assembly</label>
-            </p>
-          </li>
-          <li>
-            <p>
-              <input type="checkbox" id="sub-assembly" />
-              <label for="sub-assembly">Sub-assembly</label>
-            </p>
-          </li>
-          <li>
-            <p>
-              <input type="checkbox" id="kitting" />
-              <label for="kitting">Kitting</label>
-            </p>
-          </li>
-          <li>
-            <p>
-              <input type="checkbox" id="sequencing" />
-              <label for="sequencing">Sequencing</label>
-            </p>
-          </li>
-          <li>
-            <p>
-              <input type="checkbox" id="packing" />
-              <label for="packing">Packing/Repacking</label>
-            </p>
-          </li>
-          <li> <p>
-            <input type="checkbox" id="sorting" />
-            <label for="sorting">Sorting</label>
-          </p></li>
-          <li> <p>
-            <input type="checkbox" id="rework" />
-            <label for="rework">Rework</label>
-          </p></li>
-          <li> <p>
-            <input type="checkbox" id="warehousing" />
-            <label for="warehousing">Warehousing</label>
-          </p></li>
-        </ul>
-      </form>
-      <a href="#">read more about logistics</a>
-    </div>
-  </div>
-</div>
-</section>
+          <div class="col s12 services">
+            <ul>
+              <li>
+                <i class="font-size-icon icon-surface-treatments-icon"></i>
+                <p>SURFACE TREATMENTS</p>
+              </li>
+              <li>
+                <i class="font-size-icon icon-transportation-icon"></i>
+                <p>TRANSPORTATION</p>
+              </li>
+              <li>
+                <i class="font-size-icon icon-fabrication-icon"></i>
+                <p>FABRICATION</p>
+              </li>
+              <li>
+                <i class="font-size-icon icon-logistics-icon"></i>
+                <p>LOGISTICS</p>
+              </li>
+              <li>
+                <i class="font-size-icon icon-returnable-containers"></i>
+                <p>RETURNABLE CONTAINERS</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+              <div class="col s12 mobile-width">
+                <img src="images/logistics-pic.png" class="responsive-img" alt="">
+                <a class="waves-effect waves-light btn">request quote</a>
+              </div>
+              <div class="col s12 mobile-width">
+                <h2>logistics</h2>
+                <p>ICS has over 30 years&#8217; experience in logistics.  We specialize in adding value to parts and equipmentbetween tiered suppliers, between suppliers and OEMs, and between OEMs and consumers.</p>
+                <form action="#">
+                  <ul>
+                    <li>
+                      <p>
+                        <input type="checkbox" checked="checked" disabled="disabled" id="assembly" />
+                        <label for="assembly">Assembly</label>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <input type="checkbox" checked="checked" disabled="disabled" id="sub-assembly" />
+                        <label for="sub-assembly">Sub-assembly</label>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <input type="checkbox" checked="checked" disabled="disabled" id="kitting" />
+                        <label for="kitting">Kitting</label>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <input type="checkbox" checked="checked" disabled="disabled" id="sequencing" />
+                        <label for="sequencing">Sequencing</label>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <input type="checkbox" checked="checked" disabled="disabled" id="packing" />
+                        <label for="packing">Packing/Repacking</label>
+                      </p>
+                    </li>
+                    <li> <p>
+                      <input type="checkbox" checked="checked" disabled="disabled" id="sorting" />
+                      <label for="sorting">Sorting</label>
+                    </p></li>
+                    <li> <p>
+                      <input type="checkbox" checked="checked" disabled="disabled" id="rework" />
+                      <label for="rework">Rework</label>
+                    </p></li>
+                    <li> <p>
+                      <input type="checkbox" checked="checked" disabled="disabled" id="warehousing" />
+                      <label for="warehousing">Warehousing</label>
+                    </p></li>
+                  </ul>
+                </form>
+                <a class="read-more-a"  href="#">read more about logistics<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              </div>
+          </div>
+        </section>
 
 
 
 
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>
 
-</html>
+      </html>

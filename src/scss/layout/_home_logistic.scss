@@ -1,0 +1,47 @@
+.logistic {
+.read-more-a {
+
+}
+  .waves-effect {
+    @include respond-to(xs) {
+      margin-top: -30px;
+    }
+  }
+  .col.services {
+    @include respond-to(xs) {
+      width: 25%;
+      text-align: center;
+    }
+  }
+  .col.mobile-width {
+  label {
+    font:400 11px / 21px Roboto;
+    color:$color-p-gray;
+  }
+    @include respond-to(xs) {
+      width: 75%;
+      text-align: center;
+    }
+  }
+  .row {
+    background-color: $color-bg-gray;
+  }
+  .font-size-icon {
+    font-size: 50px;
+  }
+  .icon-add {
+  &::after {
+    content: "\e90a";
+  }
+  }
+  p {
+    @include respond-to(xs) {
+      font:400 11px / 21px Roboto;
+    }
+  }
+  .fa {
+    @include respond-to(xs) {
+      padding-left: 10px;
+    }
+  }
+  }

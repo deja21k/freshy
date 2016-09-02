@@ -1,7 +1,0 @@
-.logistic {
-  .icon-add {
-  &:before {
-    content: "\e90a";
-  }
-  }
-}
